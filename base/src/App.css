@@ -1,0 +1,55 @@
+
+.App {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+.FS-header {
+  min-height: 40px;
+  width: 100vw;
+  background-color:#3e3f4c;
+}
+
+.FS-appContent {
+  position: relative;
+}
+
+
+
+
+.FS-sidebar {
+  position: absolute;
+  height: 100%;
+  width: 18%;
+  background-color:#3e3f4c;
+}
+
+.FS-a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  line-height: 40px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #be98aa;
+  border-bottom: solid rgb(186, 182, 182);
+}
+
+.FS-a:last-child {
+  border-bottom: none;
+}
+
+
+.FS-appBox {
+  position: relative;
+  width: 82%;
+  left: 18%;
+  overflow: hidden;
+}
