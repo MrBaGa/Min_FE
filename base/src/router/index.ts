@@ -1,3 +1,4 @@
+
 import { LaptopOutlined, PieChartOutlined, LineChartOutlined } from '@ant-design/icons';
 import LayoutBanner from '../Layout';
 import QianKunPage from '../qiankunPage';
@@ -32,7 +33,7 @@ export const qinkunMenu = [
 export const appMenu = [
     {
         name: '管理',
-        key: '/management',
+        key: '/',
         icon: LaptopOutlined,
         children: [
             {
@@ -57,7 +58,7 @@ export const appMenu = [
 export const router = [
     {
         id: 'layout',
-        path: '/management',
+        path: '/',
         element: LayoutBanner,
         children: [
             {
